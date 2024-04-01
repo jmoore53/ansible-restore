@@ -1,0 +1,8 @@
+---
+- name: Patch Play
+  hosts: localhost
+  gather_facts: true
+
+  roles:
+    - { role: restore, tags: restore }
+ 
